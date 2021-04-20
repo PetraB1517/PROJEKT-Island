@@ -185,6 +185,71 @@ footer a {
   color: #8d8787;
 }
 
+/* verze pro tableeet*/
+@media screen and (min-width:540px){
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    background-position: top;
+  }
+
+  h1 {
+    font-size: 58px;
+  }
+  
+.obrazek {
+  text-align: right;
+  position: relative;
+}
+
+.obrazek p {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.719);
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+}
+
+.obrazek p a {
+  color: rgba(255, 255, 255, 0.747);
+}
+
+  
+.menu {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.menu ul {
+  padding: 0;
+  margin:0;
+  text-align: center;
+  display: flex;
+}
+
+.menu li{
+  flex-basis: 25%;
+  border-left: 1px solid #a1a1a127;
+  ;
+  border-top: 1px solid #a1a1a127;
+  border-bottom: 1px solid #a1a1a127;
+}
+
+#prvni {
+  border-left: none;
+}
+
+.menu li::after {
+  content:"";
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0;
+}
+
+}
 
 
 
